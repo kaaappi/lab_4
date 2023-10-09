@@ -2,10 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const sixthElement = document.getElementById("sixth");
     let colorClasses = ["first-color", "second-color"];
     const n = (15 % 10) + 2;
-    console.log(n)
-
+    
     const selectedElement = document.querySelector(`body>:nth-child(${n})`);
-    console.log(selectedElement)
+    
 
     let currentColorIndexForFirst = 0;
     let currentColorIndexForSecond = 0;
